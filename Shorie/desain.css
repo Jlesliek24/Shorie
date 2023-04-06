@@ -1,0 +1,100 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  
+  /* Main styles */
+  main {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+  }
+  
+  #play-btn {
+    background-color: #ffca28;
+    border: none;
+    color: #000;
+    font-size: 8rem;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(255, 202, 40, 0.5);
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  footer a:hover {
+    color: #ffca28;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Header styles */
+    header {
+      padding: 40px;
+    }
+  
+    header h1 {
+      font-size: 8rem;
+    }
+  
+    /* Main styles */
+    main {
+      height: calc(100vh - 400px);
+    }
+  
+    #play-btn {
+      font-size: 12rem;
+      padding: 30px;
+    }
+
+    .about-link {
+        font-size: 50px;
+    }
+  
+    /* Footer styles */
+    footer {
+      padding: 40px;
+    }
+  
+    footer a {
+      font-size: 2rem;
+    }
+  }
+  
+  html {
+    background-color: #000;
+  }
+  
