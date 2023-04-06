@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Trash Crusher</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-container">
+        <div class="navbar-left">
+          <a href="aboutus.html">About Us</a>
+        </div>
+        <div class="navbar-center">
+          <h1>Trash Rage Crusher</h1>
+        </div>
+        <div class="navbar-right">
+          <a href="greeting.html">Back to Front Page</a>
+        </div>
+      </div>
+    </nav>
+    
+    <main>
+        <h2>Junkyard</h2>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10 col-12 text-center">
+              <div class="click-area" id="trash-can">
+                <img src="https://drive.google.com/uc?id=1p10U76oQzeh70_-n0EOeRxfG_4zhYXbZ" alt="Trash Can">
+              </div>
+              <div class="click-count">
+                <p>Bash Point: <span id="bashPoint">0</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      
+      <h2>-------------------------------------------------------------------------------------</h2>
+      <div id="upgrade">
+        <div class="upgrade-category">
+          <h3>Coin</h3>
+          <div class="upgrade-option">
+            <p>Current Level: <span id="level1">0</span></p>
+            <button id="upgrade1">Upgrade</button>
+            <p>Cost: <span id="cost1">10</span></p>
+          </div>
+        </div>
+        
+        <div class="upgrade-category">
+            <h3>Weapon</h3>
+            <div class="upgrade-option">
+              <img src="frying_pan.png" alt="Frying Pan" id="weapon-image">
+              <p>Current Weapon: <span id="current-weapon">Frying Pan</span></p>
+              <button id="upgrade-weapon">Upgrade</button>
+              <p>Cost: <span id="weapon-cost">50</span></p>
+            </div>
+          </div>                 
+        
+        <div class="upgrade-category">
+          <h3>Bash Coin Storage</h3>
+          <div class="upgrade-option">
+            <p>Current Storage: <span id="storage">50</span></p>
+            <button id="upgrade5">Upgrade</button>
+            <p>Cost: <span id="cost5">25</span></p>
+          </div>
+        </div>
+      </div>      
+      
+      <h2>-------------------------------------------------------------------------------------</h2>
+      <div id="auto-click">
+        <button id="auto-click-btn">Bagi Yang Malas</button>
+      </div>
+    </main>
+<script src="script.js"></script>
+    </body>
+</html>

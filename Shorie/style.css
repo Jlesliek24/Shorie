@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+  }
+  
+  .navbar-left a,
+  .navbar-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .navbar-left a::before,
+  .navbar-right a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navbar-left a:hover::before,
+  .navbar-right a:hover::before {
+    width: 100%;
+  }
+  
+  .navbar-left a:hover,
+  .navbar-right a:hover {
+    font-size: 20px;
+    transition: font-size 0.3s ease-in-out;
+  }
+  
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-grow: 1;
+  }
+  
+  .navbar-center h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/*Navbar End */
+  
+h2 {
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    animation: pulse 2s infinite;
+
+  }
+  
+  @keyframes pulse {
+    0% {
+      font-size: 36px;
+    }
+    50% {
+      font-size: 40px;
+    }
+    100% {
+      font-size: 36px;
+    }
+  }
+  
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .click-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .click-area img {
+    width: 800px;
+    height: 406px;
+    border: 12px solid black;
+    border-radius: 10px;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .click-count {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  /*Click Area End */
+
+  #upgrade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .upgrade-category {
+    margin-right: 20px;
+  }
+  
+  .upgrade-category h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Monotype Corsiva", cursive;
+  }
+  
+  .upgrade-option {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upgrade-option p {
+    margin: 10px 0;
+  }
+  
+  .upgrade-option button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+  }
+  
+  .upgrade-option button:hover {
+    background-color: gold;
+    transform: scale(1.1);
+  }
+  
+  /* Upgrade and Area click End */
+
+  #auto-click-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: 4px solid palevioletred;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+  }
+  
+  .auto-click-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
